@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\projeto_angular_album_fotos\projeto-angular\resources\assets\meuapp\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\projetos-teste\projeto-angular11-laravel8-2021\resources\assets\meuapp\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -86,7 +86,7 @@ function AppComponent_pre_90_Template(rf, ctx) { if (rf & 1) {
 } }
 class AppComponent {
     constructor() {
-        this.title = 'meuapp';
+        this.title = 'Projeto Rodando';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
