@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\projeto_angular_album_fotos\projeto-angular\resources\assets\meuapp\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\projetos-teste\projeto-angular11-laravel8-2021\resources\assets\meuapp\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

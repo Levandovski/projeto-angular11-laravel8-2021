@@ -18,12 +18,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostComponent } from './post/post.component';
 import { CommonModule } from '@angular/common';
+import { PostDialogComponent } from './post-dialog/post-dialog.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PostComponent,
+    PostDialogComponent,
   ],
   imports: [
     CommonModule,
@@ -48,7 +50,7 @@ import { CommonModule } from '@angular/common';
   providers: [
     
   ],
-
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
