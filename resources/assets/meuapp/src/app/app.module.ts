@@ -17,6 +17,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PostComponent } from './post/post.component';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { PostComponent } from './post/post.component';
     PostComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule, 
