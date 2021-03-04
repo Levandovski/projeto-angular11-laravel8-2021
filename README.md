@@ -2,13 +2,18 @@
 <br>
 <strong>Instalação:</strong>
 <br>
-<strong>Dependências do Laravel + PHP</strong>
+<strong>Dependências do Laravel + PHP [COMPOSER]</strong>
 <p>Executar na raiz do projeto: composer install</p>
-<strong>Dependências do Angular</strong>
+<strong>Dependências do Angular [NPM]</strong>
 <p>Entrar na pasta resources/assets/meuapp</p>
 <p>Executar: npm install</p>
-<strong>No mysql criar o banco chamado:</strong>
+<strong>No mysql criar o banco chamado: [Banco]</strong>
 <p>posts</p>
+<strong>Configurando .env:</strong>
+<p>DB_DATABASE=posts (Banco criado acima)</p>
+<p>DB_USERNAME=root (Usuário do mysql)</p>
+<p>DB_PASSWORD=  (Senha do Mysql)</p>
+</p>
 <strong>Executar as funções abaixo na pasta raiz do projeto (Laravel)</strong>
 <!--<p>php artisan make:model Post -m</p>-->
 <p>php artisan migrate:fresh</p>
