@@ -65,4 +65,21 @@ export class PostService {
      }
      });
    }
+
+   like(id: number){
+      this.http.get('/api/like/'+id)
+      .subscribe(
+          (event:any) => {
+            let p=this.posts.find((p) => p.id==id);
+            p.likes=event.likes;
+          }
+        );
+   }  
+
+   apagar(id: number){
+     this.http.delete('/api/'+id)
+     .subscribe((event)=>{
+       console.log(event);
+     });
+   }
 }
