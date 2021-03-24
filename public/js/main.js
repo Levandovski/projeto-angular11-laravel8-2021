@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\projetos-teste\projeto-angular11-laravel8-2021\resources\assets\meuapp\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\projeto_angular_album_fotos\projeto-angular\resources\assets\meuapp\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -405,6 +405,10 @@ class PostService {
         this.http.delete('/api/' + id)
             .subscribe((event) => {
             console.log(event);
+            let i = this.posts.findIndex((p) => p.id == id);
+            if (i >= 0) {
+                this.posts.splice(i, 1);
+            }
         });
     }
 }
